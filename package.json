@@ -15,7 +15,8 @@
   "devDependencies": {
     "firebase-tools": "^13.6.0",
     "jest": "^29.7.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "typescript": "5.8.3"
   },
   "dependencies": {
     "react-scripts": "^5.0.1",
