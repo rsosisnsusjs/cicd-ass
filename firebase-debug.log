@@ -1,0 +1,53 @@
+[debug] [2025-04-06T16:29:50.271Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T16:29:50.274Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rutch\cicdass\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-06T16:29:50.274Z] CLI Version:   14.1.0
+[debug] [2025-04-06T16:29:50.274Z] Platform:      win32
+[debug] [2025-04-06T16:29:50.274Z] Node Version:  v22.13.0
+[debug] [2025-04-06T16:29:50.274Z] Time:          Sun Apr 06 2025 23:29:50 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-06T16:29:50.274Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T16:29:50.555Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T16:29:50.556Z] > authorizing via signed-in user (rutchaputch47@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-06T16:29:50.570Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T16:29:50.570Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T16:29:50.570Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-06T16:29:50.576Z] [hub] writing locator at C:\Users\rutch\AppData\Local\Temp\hub-fireship-lessons-db9f8.json
+[debug] [2025-04-06T16:29:50.593Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:50.593Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:50.594Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/sites 
+[debug] [2025-04-06T16:29:51.574Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/sites 200
+[debug] [2025-04-06T16:29:51.574Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/sites {"sites":[{"name":"projects/fireship-lessons-db9f8/sites/fireship-lessons-db9f8","defaultUrl":"https://fireship-lessons-db9f8.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-06T16:29:51.574Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:51.574Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:51.574Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/webApps/-/config [none]
+[debug] [2025-04-06T16:29:52.487Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/webApps/-/config 200
+[debug] [2025-04-06T16:29:52.487Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8/webApps/-/config {"projectId":"fireship-lessons-db9f8","storageBucket":"fireship-lessons-db9f8.firebasestorage.app","apiKey":"AIzaSyAvE_is1u7rTyk_9xLDLCKxUgm0YEAg3ZQ","authDomain":"fireship-lessons-db9f8.firebaseapp.com","messagingSenderId":"494249851768"}
+[debug] [2025-04-06T16:29:52.507Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:52.507Z] Checked if tokens are valid: true, expires at: 1743959717609
+[debug] [2025-04-06T16:29:52.507Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8 [none]
+[debug] [2025-04-06T16:29:52.836Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8 200
+[debug] [2025-04-06T16:29:52.836Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons-db9f8 {"projectId":"fireship-lessons-db9f8","projectNumber":"494249851768","displayName":"fireship-lessons","name":"projects/fireship-lessons-db9f8","resources":{"hostingSite":"fireship-lessons-db9f8"},"state":"ACTIVE","etag":"1_0517ca56-da40-46b5-b0f9-d6ca761d9cdd"}
+[info] i  hosting[fireship-lessons-db9f8]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fireship-lessons-db9f8]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-06T16:29:52.871Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:16:30:06 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
